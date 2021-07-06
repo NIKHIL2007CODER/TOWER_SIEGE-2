@@ -4,7 +4,6 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine, world;
-var box1;
 var backgroundImg,platform;
 var bird; 
 function preload() {
