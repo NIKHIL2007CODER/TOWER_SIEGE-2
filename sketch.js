@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine, world;
-var box1, pig1;
+var box1,;
 var backgroundImg,platform;
 var bird; 
 function preload() {
@@ -165,7 +165,7 @@ async function getBackgroundImg(){
     var responseJSON = await response.json();
 
     var datetime = responseJSON.datetime;
-    var hour = datetime.slice(12,12);
+    var hour = datetime.slice(13,11);
     
     if(hour>=06 && hour<=18){
         bg = "background11g.jpg";
